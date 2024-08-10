@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeber</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Zeber</div>
+        <button class="menu-toggle">☰</button>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#events">Events</a></li>
+            </li>
+            <li class="dropdown">
+                <a href="#category" class="dropbtn">Category</a>
+                <div class="dropdown-content">
+                    <a href="#news">News</a>
+                    <a href="#library">Library</a>
+                    <a href="#partners">Partners</a>
+
+                </div>
+            <li><a href="#contactus">Contact Us</a></li>
+            </li>
+        </ul>
+
+        <button class="create-event-btn">Create an Event</button>
+    </nav>
+
+    <!-- Slider Section -->
+    <section class="slider">
+        <div class="slider-container">
+            <div class="slide">
+                <img src="./img/black-friday-super-sale-facebook-cover-template_106176-1539.jpg" alt="Event 1">
+            </div>
+            <div class="slide">
+                <img src="./img/futuristic-cyber-monday-banner-template_23-2149142506.jpg" alt="Event 2">
+            </div>
+            <div class="slide">
+                <img src="./img/futuristic-cyber-monday-landing-page-template_23-2149142500.jpg" alt="Event 3">
+            </div>
+        </div>
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </section>
+
+    <!-- Fetured Events -->
+    <section class="feature-events">
+        <h2>Feature Events</h2>
+        <div class="events-container">
+            <a href="event1-page.html" class="event-card">
+                <div class="event-image">
+                    <img src="event1.jpg" alt="Event 1">
+                </div>
+                <div class="event-details">
+                    <h3>Event Header 1</h3>
+                    <p class="price">Price: $50</p>
+                    <p class="organized-by">Organized By: Organization 1</p>
+                    <p class="location">Location: Venue 1</p>
+                    <p class="date-time">Date & Time: August 15, 2024, 6:00 PM</p>
+                </div>
+            </a>
+            <a href="event2-page.html" class="event-card">
+                <div class="event-image">
+                    <img src="event2.jpg" alt="Event 2">
+                </div>
+                <div class="event-details">
+                    <h3>Event Header 2</h3>
+                    <p class="price">Price: $75</p>
+                    <p class="organized-by">Organized By: Organization 2</p>
+                    <p class="location">Location: Venue 2</p>
+                    <p class="date-time">Date & Time: September 10, 2024, 7:00 PM</p>
+                </div>
+            </a>
+            <a href="event3-page.html" class="event-card">
+                <div class="event-image">
+                    <img src="event3.jpg" alt="Event 3">
+                </div>
+                <div class="event-details">
+                    <h3>Event Header 3</h3>
+                    <p class="price">Price: $60</p>
+                    <p class="organized-by">Organized By: Organization 3</p>
+                    <p class="location">Location: Venue 3</p>
+                    <p class="date-time">Date & Time: October 5, 2024, 8:00 PM</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- browse by Category -->
+    <section class="browse-by-category">
+        <div class="background-image">
+            <h2>Browse by Category</h2>
+            <div class="categories-container">
+                <div class="category" style="background-image: url('business.jpg');">
+                    <div class="category-name">Business</div>
+                </div>
+                <div class="category" style="background-image: url('conference.jpg');">
+                    <div class="category-name">Conference</div>
+                </div>
+                <div class="category" style="background-image: url('exhibitions.jpg');">
+                    <div class="category-name">Exhibitions</div>
+                </div>
+                <div class="category" style="background-image: url('music.jpg');">
+                    <div class="category-name">Music</div>
+                </div>
+                <div class="category" style="background-image: url('online-event.jpg');">
+                    <div class="category-name">Online Event</div>
+                </div>
+                <div class="category" style="background-image: url('party.jpg');">
+                    <div class="category-name">Party</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
