@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event 1 Page</title>
+    <link rel="stylesheet" href="event1.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY" defer></script>
+    <script src="script1.js" defer></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Zeber</div>
+        <button class="menu-toggle">☰</button>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#events">Events</a></li>
+            <li class="dropdown">
+                <a href="#category" class="dropbtn">Category</a>
+                <div class="dropdown-content">
+                    <a href="#cat1">Category 1</a>
+                    <a href="#cat2">Category 2</a>
+                    <a href="#cat3">Category 3</a>
+                </div>
+            </li>
+            <li><a href="#contactus">Contact Us</a></li>
+        </ul>
+        <button class="create-event-btn">Create an Event</button>
+    </nav>
+
+    <!-- Event Details Section -->
+    <section class="event-details">
+        <div class="event-container">
+            <!-- Horizontal Layout for Title and Map -->
+            <div class="event-main-map">
+                <!-- Event Title and Image -->
+                <div class="event-main">
+                    <h1 class="event-title">Event Title</h1>
+                    <img src="event1-image.jpg" alt="Event Image" class="event-image">
+                </div>
+
+                <!-- Event Location Map -->
+                <div class="event-map-container">
+                    <h2>Event Location Map</h2>
+                    <div id="map" class="event-map"></div>
+                </div>
+            </div>
+
+            <!-- Event Details -->
+            <div class="event-info">
+                <div class="event-location-details">
+                    <div class="event-details-left">
+                        <p class="total-seats">Total Seats: <span class="seats-left">1000</span> (1000 left)</p>
+                        <p class="organized-by">By: Zeber Tech</p>
+                        <p class="address">Address: Delhi</p>
+                    </div>
+                    <div class="event-details-right">
+                        <p class="event-date">Event Date: Sep 18, 2024</p>
+                        <p class="event-time">Event Time: 6:00 PM</p>
+                        <p class="event-location-icon">Event Location: <i class="icon-location"></i></p>
+                        <p class="about-event">About the Event: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
